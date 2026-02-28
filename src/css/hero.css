@@ -1,0 +1,108 @@
+.main-hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-hero {
+    background: var(--color-scheme-3-background);
+    margin: 0 auto;
+}
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.hero-title {
+    font-family: Cabin, sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: var(--color-scheme-3-text);
+    margin-top: 48px;
+
+}
+.hero-text {
+    font-family: Sarabun, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-scheme-3-text);
+    margin-top: 20px;
+}
+.link-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.link-join,
+.link-learn {
+    font-family: Sarabun, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-neutral-darkest);
+    text-align: center;
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 343px;
+    height: 46px;
+}
+.link-join {
+    border: 1px solid var(--color-hawkes-blue);
+    background: var(--color-hawkes-blue);
+}
+.link-learn {
+    border: 1px solid var(--opacity-transparent);
+    background: var(--opacity-neutral-darkest-5);
+}
+@media only screen and (min-width: 768px) {
+    .main-hero .container {
+     align-items: flex-start;
+    } 
+    .hero-title {
+        margin-top: 24px;
+        width: 423px; 
+    }
+    .hero-text {
+        font-size: 18px;
+        width: 641px;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .link-btn {
+        flex-direction: row;
+        margin-top: 32px;
+        white-space: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .link-join {
+        width: 113px;
+    }
+    .link-learn {
+        width: 128px;
+    }
+}
+@media only screen and (min-width: 1336px) {
+    .main-hero .container {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        margin: 80px 64px;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        
+    }
+    .hero-title {
+        font-size: 72px;
+        width: 644px;
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+}
