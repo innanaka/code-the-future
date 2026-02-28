@@ -1,21 +1,61 @@
-.yoga-classes {}
+.yoga-classes {
+    padding-bottom: 64px;
+    padding-top: 64px;
+    background: #f2fafa;
+}
 
 .container {}
 
 .container-yoga-classes {}
 
-.subtitle-yoga-classes {}
+.subtitle-yoga-classes {
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 12px;
+}
 
-.title-yoga-classes {}
+.title-yoga-classes {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-.dscr-classes {}
+.dscr-classes {
+    text-align: center;
+    margin-bottom: 48px;
+}
 
 .yoga-classes-list {}
 
-.yoga-classes-item {}
+.yoga-classes-item {
+    margin-bottom: 48px;
+}
 
-.program-yoga {}
+.program-yoga {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 24px;
+}
 
-.dscr-program {}
+.dscr-program {
+    text-align: center;
+}
 
-.yoga-classes-button {}
+.yoga-classes-button {
+    border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 343px;
+    height: 46px;
+    background: #c2d9fc;
+}
