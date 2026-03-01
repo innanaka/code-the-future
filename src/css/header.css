@@ -19,6 +19,9 @@
 .burger-icon {
   fill: #0d0b0a;
 }
+.header-nav-list {
+  display: none;
+}
 .header-logo {
   fill: #0d0b0a;
   margin: 14px 16px 14px 0;
