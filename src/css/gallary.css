@@ -51,12 +51,27 @@
     padding-bottom: 40px;
   }
 
+  .gallery-tittle {
+    margin-bottom: 24px;
+  }
+
+  .gallery-text {
+    width: 704px;
+  }
+
+  .gallery-text {
+    margin-bottom: 80px;}
+
 }
 
 @media screen and (min-width: 1336px) {
   .gallery {
     padding-top: 112px;
     padding-bottom: 112px;
+  }
+
+  .gallery-text {
+    width: 768px;
   }
 
   .gallery-list-item {
