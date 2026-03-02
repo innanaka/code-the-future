@@ -51,9 +51,16 @@
     padding-bottom: 40px;
   }
 
+  .gallery-tittle {
+    margin-bottom: 24px;
+  }
+
   .gallery-text {
     width: 704px;
   }
+
+  .gallery-text {
+    margin-bottom: 80px;}
 
 }
 
