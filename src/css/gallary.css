@@ -70,6 +70,10 @@
     padding-bottom: 112px;
   }
 
+  .gallery-tittle {
+    font-size: 52px;
+  }
+
   .gallery-text {
     width: 768px;
   }
