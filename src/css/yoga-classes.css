@@ -46,6 +46,8 @@
 }
 
 .yoga-classes-button {
+    display: block;
+    text-align: center;
     border: 1px solid #c2d9fc;
     border-radius: 100px;
     padding: 10px 24px;
