@@ -94,7 +94,8 @@
         display: flex;
         flex-direction: row;
         gap: 24px;
-        margin: 80px 64px;
+        margin-left: 64px;
+        margin-top: 80px;
         flex-wrap: nowrap;
         justify-content: flex-start;
         
