@@ -150,6 +150,11 @@
         padding-bottom: 112px;
     }
 
+    .testimonials-title {
+        font-weight: 400;
+        font-size: 52px;
+    }
+
     .testimonials-list {
         flex-direction: row;
         flex-wrap: wrap;
