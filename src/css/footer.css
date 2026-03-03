@@ -1,1 +1,224 @@
 
+.footer-container {
+    background-color: #DFEBEB;
+    padding: 64px;
+    font-family: "Sarabun", sans-serif;;
+
+}
+
+.footer-content {
+    background-color: #ffffff;
+    border-radius: 16px;
+    max-width: 1312px;
+    margin: 0 auto;
+    padding: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    box-sizing: border-box;
+}
+
+
+.footer-section-subscription {
+    flex: 1 1 500px;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 40px;
+
+}
+.subscribe-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #0D0B0A;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.subscribe-form input {
+    width: 100%;
+    max-width: 501px;
+    height: 42px;
+    flex: 1;
+    background-color: #f0f2f2;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.subscribe-form button {
+    width: 78px;
+    height: 46px;
+    background-color: #f0f2f2;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.3s;
+}
+
+.subscribe-form button:hover {
+    background-color: #e2e5e5;
+}
+.subscribe-form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.subscribe-form input.error-field{
+    border-color: #B10000;
+    color: #B10000;
+}
+.error-message{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    color: #B10000;
+    display: none;
+}
+.disclaimer {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #0D0B0A;
+    margin-bottom: 24px;
+    max-width: 595px;
+}
+
+
+.footer-section-links{
+    flex: 0 0 165.5px;
+    margin-right: 40px;
+}
+
+.footer-section-social {
+    flex: 0 0 165.5px;
+}
+
+.footer-content h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    margin-top: 0;
+    color: #0D0B0A;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-content li {
+    margin-bottom: 16px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #0D0B0A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #555;
+}
+
+
+.copyright {
+    flex: 1 0 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #0D0B0A;
+    margin-top: 0;
+}
+
+
+@media (max-width: 991px) {
+    .footer-container{
+        padding: 40px 32px;
+    }
+    .footer-content {
+        padding: 40px 32px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-section-subscription {
+        flex: 1 1 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .footer-section-links{
+        flex: 0 1 45%;
+        margin-right: 0;
+    }
+
+    .footer-section-social {
+        flex: 0 1 45%;
+
+    }
+    .copyright{
+        flex: 1 1 100%;
+        margin-top: 40px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .footer-container{
+        padding: 20px 16px;
+    }
+    .footer-content {
+        padding: 48px 16px;
+        flex-direction: column;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .subscribe-form button{
+        width: 100%;
+    }
+    .footer-section-links,
+    .footer-section-social {
+        flex: 1 1 100%;
+        margin-bottom: 24px;
+    }
+    .copyright{
+        text-align: left;
+        margin-top: 24px;
+    }
+}
