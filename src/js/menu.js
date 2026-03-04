@@ -10,7 +10,7 @@
     refs.closeModalBtn.addEventListener("click", toggleModal);
   
     function toggleModal() {
-      refs.modal.classList.toggle("is-open");
+      refs.modal.classList.toggle("is-hidden");
       document.body.classList.toggle("no-scroll");
     }
 
@@ -18,7 +18,7 @@
   const menuLinks = document.querySelectorAll(".mobile-menu-link");
   menuLinks.forEach(link => {
     link.addEventListener("click", () => {
-      refs.modal.classList.remove("is-open");
+      refs.modal.classList.remove("is-hidden");
       document.body.classList.remove("no-scroll");
     });
   });
