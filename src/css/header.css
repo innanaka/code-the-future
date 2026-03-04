@@ -46,6 +46,10 @@
 .header-link-join:focus {
   opacity: 0.5;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
