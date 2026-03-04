@@ -1,4 +1,4 @@
-.main-hero .container {
+.main-hero .text-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +8,7 @@
     background: var(--color-scheme-3-background);
     margin: 0 auto;
 }
-.hero-img {
+.img-hero {
     max-width: 100%;
     height: auto;
     display: block;
@@ -57,12 +57,21 @@
     border: 1px solid var(--color-hawkes-blue);
     background: var(--color-hawkes-blue);
 }
+.link-join:hover,
+.link-join:focus,
+.link-learn:hover,
+.link-learn:focus {
+    opacity: 0.5;
+
+}
+
 .link-learn {
     border: 1px solid var(--opacity-transparent);
     background: var(--opacity-neutral-darkest-5);
 }
+
 @media only screen and (min-width: 768px) {
-    .main-hero .container {
+    .main-hero .text-bottom {
      align-items: flex-start;
     } 
     .hero-title {
@@ -90,11 +99,12 @@
     }
 }
 @media only screen and (min-width: 1336px) {
-    .main-hero .container {
+    .main-hero .text-bottom {
         display: flex;
         flex-direction: row;
         gap: 24px;
-        margin: 80px 64px;
+        margin-left: 64px;
+        margin-top: 80px;
         flex-wrap: nowrap;
         justify-content: flex-start;
         

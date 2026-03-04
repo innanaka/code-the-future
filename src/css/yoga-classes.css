@@ -132,7 +132,7 @@
             white-space: nowrap;
         }
 
-        span 
+        .h3-span 
         {
             display: none;
         }
@@ -217,7 +217,7 @@
             opacity: 0.5;
         }
 
-        span 
+        .h3-span 
         {
             display: none;
         }
