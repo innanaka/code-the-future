@@ -1,18 +1,21 @@
 <footer class="footer-container" id="footer">
-  <div class="footer-content">
-    <div class="footer-section-subscription">
-        <div class="logo">
+    <div class="footer-content">
+        <div class="footer-section-subscription">
             <svg class="footer-logo" width="84" height="36">
                 <use href="/img/sprite.svg#icon-logo"></use>
             </svg>
-        </div>
-        <p class="subscribe-description">Subscribe to our newsletter for the latest updates on our yoga clases and events.</p>
-        <div class="subscribe-form-container">   
-            <div class="subscribe-form">
-                <input type="email" placeholder="Placeholder">
-                <button type="submit">Join</button>
+            <p class="subscribe-description">
+                Subscribe to our newsletter for the latest updates on our yoga classes and events.
+            </p>
+            <div class="subscribe-form-container">
+                <form class="subscribe-form">
+                    <input type="email" name="email" id="subscribe-email" aria-label="Email" placeholder="Placeholder"
+                        required>
+                    <p class="error-message">Error Text</p>
+                    <button type="submit">Join</button>
+                </form>
             </div>
-            <p class="error-message">Error Text</p>
+            <p class="disclaimer">By subscribing, you consent to our Privacy Policy and agree to receive updates.</p>
         </div>
       <p class="disclaimer">
         By subscribing, you consent to our Privacy Policy and agree to receive
@@ -65,6 +68,4 @@
         </li>
       </ul>
     </div>
-    <p class="copyright">© 2025 Yoga Studio. All rights reserved.</p>
-  </div>
 </footer>

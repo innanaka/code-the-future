@@ -1,4 +1,8 @@
 
+.pricing {
+    background-color: #F2FAFA;
+}
+
 .pricing-container {
     display: flex;
     flex-direction: column;
