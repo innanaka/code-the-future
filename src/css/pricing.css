@@ -1,12 +1,12 @@
 
 .pricing {
     background-color: #F2FAFA;
+    padding: 64px 16px;
 }
 
 .pricing-container {
     display: flex;
     flex-direction: column;
-    padding: 64px 16px;
     background-color: #F2FAFA;
 }
 
@@ -40,7 +40,7 @@
     flex-direction: column;
     position: relative;
     flex-grow: 1;
-    width: 343px;
+    max-width: 343px;
     height: 378px;
     padding: 32px 24px;
     border: 0px solid #0D0B0A;
@@ -63,7 +63,7 @@
     font-size: 44px;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
 }
 
 .pricing-card-list {
@@ -79,7 +79,6 @@
 }
 
 .pricing-card-btn {
-    position: absolute;
     bottom: 32px;
     left: 24px;
     background-color: #c2d9fc;
@@ -87,7 +86,7 @@
     border-radius: 100px;
     text-align: center;
     margin-top: 32px;
-    width: 295px;
+    max-width: 295px;
     height: 46px;
     cursor: pointer;
     font-weight: 500;
@@ -103,6 +102,8 @@
 .pricing-card-btn:hover,
 .pricing-card-btn:focus {
     opacity: 0.5;
+    border: 1px solid var(--color-neutral);
+    outline: transparent;
 }
 
 .pricing-card-btn:active{
@@ -166,6 +167,7 @@
         flex-direction: row;
         padding: 86px 16px;
         gap: 32px;
+        max-width: 100%;
     }
 
     .pricing-card-session-tablet .pricing-card-text-container {
@@ -184,51 +186,53 @@
 @media screen and (min-width: 1336px) {
     
     .pricing-container {
-        padding: 122px 64px;
-        max-width: 1440px;
-    }
-
-    .pricing-header{
-        margin-bottom: 40px;
-    }
-
-    .pricing-header-head {
-        font-size: 52px;
-    }
-
-    .pricing-card-container { 
-        flex-wrap: nowrap;
-    }
-
-    .pricing-card-session {
-        width: 421px;
-        height: 509px;
-        padding: 32px;
-    }
-
-    .pricing-card-session-tablet {
-        width: 421px;
-        height: 509px;
-        padding: 32px;
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .pricing-card-session-tablet .pricing-card-text-container {
-        all: unset;
-    }
-
-    .pricing-card-btn {
-        padding: 10px 42px;
-        bottom: 32px;
-        left: 32px;
-        height: 46px;
-        width: 357px;
-    }
-
-    .pricing-card-session-tablet .pricing-card-btn{
-        position: absolute;
-        bottom: 32px;
-        left: 32px;
-    }
+            padding: 122px 0;
+        }
+    
+        .pricing-header {
+            margin-bottom: 40px;
+        }
+    
+        .pricing-header-head {
+            font-size: 52px;
+        }
+    
+        .pricing-card-container {
+            flex-wrap: nowrap;
+        }
+    
+        .pricing-card-session {
+            max-width: 421px;
+            height: 509px;
+            padding: 32px;
+        }
+    
+        .pricing-card-session-tablet {
+            max-width: 421px;
+            height: 509px;
+            padding: 32px;
+            flex-direction: column;
+            gap: 0;
+        }
+    
+        .pricing-card-session-tablet .pricing-card-text-container {
+            all: unset;
+        }
+    
+        .pricing-card-btn {
+            position: absolute;
+            padding: 10px 42px;
+            bottom: 32px;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 46px;
+            width: 357px;
+        }
+    
+        .pricing-card-session-tablet .pricing-card-btn {
+            position: absolute;
+            bottom: 32px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
 }
