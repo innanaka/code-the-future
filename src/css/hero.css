@@ -91,7 +91,6 @@
     .hero-text {
         font-size: 18px;
         width: 641px;
-        margin-top: 16px;
         margin-bottom: 24px;
     }
     .link-btn {
@@ -118,7 +117,6 @@
         display: flex;
         flex-direction: row;
         gap: 24px;
-        margin-left: 64px;
         margin-top: 80px;
         flex-wrap: nowrap;
         justify-content: flex-start;
@@ -128,6 +126,5 @@
         font-size: 72px;
         width: 644px;
         margin-top: 0;
-        margin-bottom: 80px;
     }
 }
